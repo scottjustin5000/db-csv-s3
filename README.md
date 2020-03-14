@@ -30,6 +30,8 @@ Available Options:
 -q   query to execute,
 ```
 
+(running `db-csv-s3 --help` will list options)
+
 #### Examples
 
 mysql with inline query:

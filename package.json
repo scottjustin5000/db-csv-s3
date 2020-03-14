@@ -10,8 +10,8 @@
     "test": "standard"
   },
   "bin": {
-		"db-csv-s3": "bin/db-csv-s3.js"
-	},
+    "db-csv-s3": "bin/db-csv-s3.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scottjustin5000/db-csv-s3.git"
