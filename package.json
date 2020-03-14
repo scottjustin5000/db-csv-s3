@@ -1,0 +1,32 @@
+{
+  "name": "db-csv-s3",
+  "version": "1.0.0",
+  "description": "stream from db to csv to s3",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.2"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+		"db-csv-s3": "bin/db-csv-s3.js"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottjustin5000/db-csv-s3.git"
+  },
+  "author": "scottjustin",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.470.0",
+    "fast-csv": "^4.1.1",
+    "mysql2": "^1.6.1",
+    "pg": "^7.4.1",
+    "pg-copy-streams": "^2.2.2",
+    "s3-upload-stream": "^1.0.7"
+  },
+  "devDependencies": {
+    "standard": "12.0.1"
+  }
+}
