@@ -19,7 +19,7 @@
   "author": "scottjustin",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.470.0",
+    "aws-sdk": "^2.814.0",
     "fast-csv": "^4.3.6",
     "mysql2": "^1.6.1",
     "pg": "^7.4.1",
